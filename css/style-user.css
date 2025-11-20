@@ -1,0 +1,730 @@
+@import url('https://fonts.googleapis.com/css?family=ABeeZee');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Iceberg');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background-body {
+    background-image: url('../assets/Background.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.end-user-body {
+    background-image: url('../assets/background-2.svg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-container {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.text-header {
+    text-align: center;
+    font-family: 'Iceberg';
+    font-size: 50px;
+    color: white;
+    display: inline-block;
+    -webkit-text-stroke: 1px black;
+}
+
+.logo-header {
+    width: 60px;
+    height: 70px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.container-main {
+    margin: 20px;
+    text-align: center;
+    border: none;
+}
+
+.container-main2 {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 0;
+    bottom: 0;
+    text-align: center;
+    border: none;
+}
+
+.card-body {
+    border: none;
+}
+
+.text-main {
+    font-size: 32px;
+    font-family: 'ABeeZee', sans-serif;
+    color: white;
+    margin-bottom: 20px;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.text-main-2 {
+    font-size: 30px;
+    font-family: 'ABeeZee', sans-serif;
+    color: white;
+    margin-bottom: 20px;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.btn-buat {
+    font-family: 'AbeeZee', sans-serif;
+    font-size: 30px;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+    background-color: #B70404;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+
+.input-data {
+    width: 100%;
+    padding: 10px !important;
+    border-radius: 10px !important;
+    border: 1px solid black !important;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 21px;
+    color: black;
+}
+
+.container-button {
+    display: flex;
+    margin-top: 420px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.btn-back {
+    font-family: 'AbeeZee', sans-serif;
+    font-size: 30px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    background-color: rgb(0, 0, 0, 0.5);
+    border: 1px solid black !important;
+    width: 250px;
+    height: 75px;
+}
+
+.btn-next {
+    font-family: 'AbeeZee', sans-serif;
+    font-size: 30px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    background-color: rgb(0, 0, 0, 0.5);
+    border: 1px solid black !important;
+    width: 250px;
+    height: 75px;
+    margin-left: 700px;
+}
+
+.img-user {
+    margin-top: 50px;
+}
+
+#img-user {
+    width: 221px;
+    height: 228px;
+}
+
+.text-invalid {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.text-invalid-1 {
+    font-family: 'AbeeZee';
+    font-size: 30px;
+    color: #FF0000;
+    -webkit-text-stroke: 1px black;
+}
+
+.text-invalid-2 {
+    font-family: 'AbeeZee';
+    font-size: 30px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+.container-button-invalid {
+    display: block;
+    margin-top: 100px;
+    padding: 30px;
+}
+
+.container-upload-file {
+    margin-bottom: 50px;
+}
+
+.upload-file {
+    display: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.upload-file-resp {
+    width: 130px;
+    height: 130px;
+    cursor: pointer;
+}
+
+.text-upload-file {
+    font-family: 'AbeeZee';
+    font-size: 20px;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.container-button-upload {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.btn-upload-back {
+    font-family: 'AbeeZee', sans-serif;
+    font-size: 30px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    background-color: rgb(0, 0, 0, 0.5);
+    border: 1px solid black !important;
+    width: 200px;
+    height: 75px;
+    border-radius: 15px;
+}
+
+.btn-upload-next {
+    font-family: 'AbeeZee', sans-serif;
+    font-size: 30px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    background-color: rgb(0, 0, 0, 0.5);
+    border: 1px solid black !important;
+    width: 200px;
+    height: 75px;
+    margin-left: 500px;
+    border-radius: 15px;
+}
+
+.container-button-upload-radio {
+    display: block;
+    margin-top: 60px;
+    width: 100%;
+    margin-left: 0;
+}
+
+#text-desa {
+    font-family: 'AbeeZee', sans-serif;
+    font-size: 21px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.container-radio-1 {
+    text-align: left;
+    margin-left: 40px;
+}
+
+.btn-radio {
+    font-size: 15px;
+    font-family: 'AbeeZee', sans-serif;
+    color: white;
+    -webkit-text-stroke: 0.7px black;
+}
+
+.radio-button-1 {
+    width: 15px;
+    height: 15px;
+}
+
+#radio-btn-2 {
+    margin-left: 60px;
+}
+
+#radio-btn-3 {
+    margin-left: 60px;
+}
+
+#radio-btn-4 {
+    margin-left: 60px;
+}
+
+#radio-btn-6 {
+    margin-left: 65.5px;
+}
+
+#radio-btn-7 {
+    margin-left: 98px;
+}
+
+#radio-btn-8 {
+    margin-left: 76px;
+}
+
+#radio-btn-10 {
+    margin-left: 66.5px;
+}
+
+#radio-btn-11 {
+    margin-left: 43.5px;
+}
+
+#radio-btn-12 {
+    margin-left: 69.5px;
+}
+
+#radio-btn-14 {
+    margin-left: 73.5px;
+}
+
+#radio-btn-15 {
+    margin-left: 37px;
+}
+
+#radio-btn-17 {
+    margin-left: 6px;
+}
+
+#radio-btn-18 {
+    margin-left: 62.5px;
+}
+
+.container-input-radio {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#text-komoditas {
+    font-family: 'AbeeZee', sans-serif;
+    font-size: 21px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.checkbox-label {
+    display: block;
+    font-size: 20px;
+    font-family: 'AbeeZee', sans-serif;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+.container-checkbox {
+    text-align: left;
+    margin-left: 40px;
+}
+
+#text-pemilik {
+    font-family: 'AbeeZee', sans-serif;
+    font-size: 21px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.btn-pemilik-radio {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'AbeeZee', sans-serif;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.container-button-pemilik-radio {
+    display: block;
+    margin-top: 260px;
+    width: 100%;
+    margin-left: 0;
+}
+
+.text-success-1 {
+    font-family: 'AbeeZee';
+    font-size: 30px;
+    color: #008000;
+    -webkit-text-stroke: 1px black;
+}
+
+.btn-back-success {
+    font-family: 'AbeeZee', sans-serif;
+    font-size: 30px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    background-color: rgb(0, 0, 0, 0.5);
+    border: 1px solid black !important;
+    width: 450px;
+    height: 75px;
+    border-radius: 15px;
+}
+
+.text-success-2 {
+    font-family: 'AbeeZee';
+    font-size: 30px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+.container-button-success {
+    margin-top: 130px;
+    padding: 30px;
+}
+
+@media (min-width: 300px) and (max-width: 549px) {
+    .input-data {
+        margin: 15px;
+        font-size: 10px !important;
+    }
+
+    .container-button {
+        display: block;
+        margin-top: 50px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .btn-back {
+        font-size: 15px;
+        -webkit-text-stroke: 0.5px black;
+        width: 130px;
+        height: 30px;
+        margin: 0 auto;
+    }
+
+    .btn-next {
+        font-size: 15px;
+        -webkit-text-stroke: 0.5px black;
+        width: 130px;
+        height: 30px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    #img-user {
+        width: 100px;
+        height: 100px;
+        margin-top: 50px;
+    }
+
+    .text-invalid-1 {
+        font-size: 20px;
+    }
+
+    .text-invalid-2 {
+        font-size: 20px;
+    }
+
+    .text-upload-file {
+        font-size: 15px;
+    }
+
+    .upload-file-resp {
+        width: 100px;
+        height: 100px;
+    }
+
+    .container-button-upload {
+        display: block;
+        margin-top: 50px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .btn-upload-back {
+        font-size: 15px;
+        -webkit-text-stroke: 0.5px black;
+        width: 130px;
+        height: 30px;
+        margin: 0 auto;
+    }
+
+    .btn-upload-next {
+        font-size: 15px;
+        -webkit-text-stroke: 0.5px black;
+        width: 130px;
+        height: 30px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    #text-komoditas {
+        font-family: 'AbeeZee', sans-serif;
+        font-size: 10px;
+        color: white;
+        -webkit-text-stroke: 0.5px black;
+        text-align: left;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+    .checkbox-label {
+        display: block;
+        font-size: 10px;
+        font-family: 'AbeeZee', sans-serif;
+        color: white;
+        -webkit-text-stroke: 0.5px black;
+    }
+
+    .container-checkbox {
+        text-align: left;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    #text-pemilik {
+        font-family: 'AbeeZee', sans-serif;
+        font-size: 15px;
+        color: white;
+        -webkit-text-stroke: 0.7px black;
+        text-align: left;
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+    
+    .btn-pemilik-radio {
+        text-align: left;
+        font-size: 15px;
+        font-family: 'AbeeZee', sans-serif;
+        color: white;
+        -webkit-text-stroke: 0.7px black;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+    
+    .container-button-pemilik-radio {
+        display: block;
+        margin-top: 260px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .text-success-1 {
+        font-family: 'AbeeZee';
+        font-size: 15px;
+        margin-top: 50px;
+        color: #008000;
+        -webkit-text-stroke: 0.7px black;
+    }
+    
+    .btn-back-success {
+        font-family: 'AbeeZee', sans-serif;
+        font-size: 15px;
+        color: white;
+        -webkit-text-stroke: 0.7px black;
+        background-color: rgb(0, 0, 0, 0.5);
+        border: 1px solid black !important;
+        width: 150px;
+        height: 75px;
+        border-radius: 15px;
+    }
+    
+    .text-success-2 {
+        font-family: 'AbeeZee';
+        font-size: 15px;
+        color: white;
+        -webkit-text-stroke: 0.7px black;
+    }
+    
+    .container-button-success {
+        margin-top: 80px;
+        padding: 30px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .container-button-upload-radio {
+        display: block;
+        margin-top: 10px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #text-desa {
+        font-family: 'AbeeZee', sans-serif;
+        font-size: 15px;
+        color: white;
+        -webkit-text-stroke: 0.7px black;
+        text-align: left;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .container-radio-1 {
+        margin-left: 0px;
+    }
+
+    .radio-button-1 {
+        width: 8px;
+        height: 8px;
+    }
+
+    .btn-radio {
+        font-size: 10px;
+        font-family: 'AbeeZee', sans-serif;
+        color: white;
+        -webkit-text-stroke: 0.4px black;
+        margin-top: 1px;
+    }
+
+    .radio-inline {
+        display: block;
+    }
+
+    #radio-btn-1 {
+        margin-left: 0;
+    }
+
+    #radio-btn-2 {
+        margin-left: 0px;
+    }
+
+    #radio-btn-3 {
+        margin-left: 0px;
+    }
+
+    #radio-btn-4 {
+        margin-left: 0px;
+    }
+
+    #radio-btn-6 {
+        margin-left: 0px;
+    }
+
+    #radio-btn-7 {
+        margin-left: 0px;
+    }
+
+    #radio-btn-8 {
+        margin-left: 0px;
+    }
+
+    #radio-btn-10 {
+        margin-left: 0px;
+    }
+
+    #radio-btn-11 {
+        margin-left: 0px;
+    }
+
+    #radio-btn-12 {
+        margin-left: 0px;
+    }
+
+    #radio-btn-14 {
+        margin-left: 0px;
+    }
+
+    #radio-btn-15 {
+        margin-left: 0px;
+    }
+
+    #radio-btn-17 {
+        margin-left: 0px;
+    }
+
+    #radio-btn-18 {
+        margin-left: 0px;
+    }
+}
+
+@media (min-width:550px) and (max-width: 1000px) {
+    .input-data {
+        margin: 0px;
+        font-size: 15px !important;
+    }
+
+    .container-button {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .btn-back {
+        font-size: 15px;
+        -webkit-text-stroke: 0.5px black;
+        width: 330px;
+        height: 50px;
+    }
+
+    .btn-next {
+        font-size: 15px;
+        -webkit-text-stroke: 0.5px black;
+        width: 330px;
+        height: 50px;
+        margin-left: 380px;
+    }
+
+    .text-upload-file {
+        font-size: 30px;
+        -webkit-text-stroke: 0.5px black;
+    }
+
+    .upload-file-resp {
+        width: 120px;
+        height: 120px;
+    }
+
+    .container-button-upload {
+        display: flex;
+        margin-top: 50px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .btn-upload-back {
+        font-size: 15px;
+        -webkit-text-stroke: 0.5px black;
+        width: 130px;
+        height: 50px;
+        margin: 0 auto;
+    }
+
+    .btn-upload-next {
+        font-size: 15px;
+        -webkit-text-stroke: 0.5px black;
+        width: 130px;
+        height: 50px;
+        margin-left: 50px !important;
+        margin: 0 auto;
+    }
+
+    #input-ibu {
+        margin-top: 20px;
+    }
+
+    #input-tanah {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+}
